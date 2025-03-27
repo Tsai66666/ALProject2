@@ -11,28 +11,6 @@
       <rd:DataSourceID>fba1ed39-d7de-4876-a0d9-db5284ed501c</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="No">
-          <DataField>No</DataField>
-        </Field>
-        <Field Name="Name">
-          <DataField>Name</DataField>
-        </Field>
-        <Field Name="Balance">
-          <DataField>Balance</DataField>
-        </Field>
-        <Field Name="BalanceFormat">
-          <DataField>BalanceFormat</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -304,7 +282,7 @@
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
             <Top>1.21875in</Top>
-            <Left>0.21875in</Left>
+            <Left>0.48958in</Left>
             <Height>0.5in</Height>
             <Width>4.29167in</Width>
             <Style>
@@ -352,7 +330,7 @@
               <Paragraph>
                 <TextRuns>
                   <TextRun>
-                    <Value>Ｃｕｓｔｏｍｅｒ　Ｌｉｓｔ</Value>
+                    <Value>Ｍｉｎｇ－Ｈａｎ’ｓ　Ｃｕｓｔｏｍｅｒ　Ｌｉｓｔ</Value>
                     <Style />
                   </TextRun>
                 </TextRuns>
@@ -361,9 +339,9 @@
             </Paragraphs>
             <rd:DefaultName>Textbox4</rd:DefaultName>
             <Top>0.65847in</Top>
-            <Left>1.47917in</Left>
+            <Left>0.48958in</Left>
             <Height>0.25in</Height>
-            <Width>1.97in</Width>
+            <Width>4.60542in</Width>
             <ZIndex>2</ZIndex>
             <Style>
               <Border>
@@ -476,4 +454,26 @@ End Function
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
   <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="No">
+          <DataField>No</DataField>
+        </Field>
+        <Field Name="Name">
+          <DataField>Name</DataField>
+        </Field>
+        <Field Name="Balance">
+          <DataField>Balance</DataField>
+        </Field>
+        <Field Name="BalanceFormat">
+          <DataField>BalanceFormat</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>
